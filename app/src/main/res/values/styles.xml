@@ -1,0 +1,126 @@
+<resources>
+
+    <!--
+        Tema da launcher screen. Carregado antes de tudo
+        para que não fique em tela uma definição de
+        windowBackground que é padrão e sem relação com
+        o design do app.
+    -->
+    <style name="AppTheme.Launcher">
+        <item name="android:windowBackground">
+            @drawable/launcher_screen
+        </item>
+    </style>
+
+    <!-- Tema base do aplicativo. -->
+    <style
+        name="AppTheme"
+        parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:statusBarColor">@color/colorStatusBar</item>
+    </style>
+
+    <style name="AppTheme.Title">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/standard_screen_side_margin</item>
+        <item name="android:layout_marginEnd">@dimen/standard_screen_side_margin</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:fontFamily">@font/varela_round_regular</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorContentTitle</item>
+    </style>
+
+    <style
+        name="AppTheme.TextContent"
+        parent="AppTheme.Title">
+
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:autoLink">all</item>
+        <item name="android:linksClickable">true</item>
+        <item name="android:textColorLink">@color/colorContentLink</item>
+        <item name="android:textColor">@color/colorContentText</item>
+    </style>
+
+    <style name="AppTheme.ListItemContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/standard_screen_side_margin</item>
+        <item name="android:layout_marginEnd">@dimen/standard_screen_side_margin</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:background">@drawable/bg_item_list</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="AppTheme.ListItemIcon">
+        <item name="android:layout_width">34dp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginEnd">12dp</item>
+        <item name="android:tint">@color/colorListItemLinealIcon</item>
+    </style>
+
+    <style name="AppTheme.ListItemMainText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/colorListItemText</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style
+        name="AppTheme.ListItemAuxText"
+        parent="AppTheme.ListItemMainText">
+
+        <item name="android:layout_alignParentTop">false</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!-- LastVideoFragment (fragment_last_video.xml) -->
+    <style name="AppTheme.VideoPlayerIcons">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:tint">@color/colorVideoPlayerIcon</item>
+    </style>
+
+    <style name="AppTheme.VideoPlayerBand">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingEnd">10dp</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:textColor">@color/colorVideoPlayerYBText</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/bg_video_player_band</item>
+    </style>
+
+    <style name="AppTheme.VideoPlayerTextsBelow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/standard_screen_side_margin</item>
+        <item name="android:layout_marginEnd">@dimen/standard_screen_side_margin</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/colorContentText</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+</resources>

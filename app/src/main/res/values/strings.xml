@@ -1,0 +1,215 @@
+<resources>
+    <string name="app_name">
+        Canal Emagrecer De Vez
+    </string>
+
+
+    <!-- Topo -->
+    <string name="channel_name">
+        Emagrecer De Vez
+    </string>
+    <string name="channel_desc">
+        Saúde, emagrecimento e estilo de vida saudável
+        na prática.
+    </string>
+    <string name="youtube_content_icon_content_desc">
+        Ícone do YouTube.
+    </string>
+    <string name="channel_thumb_content_desc">
+        Thumb do canal YouTube Emagrecer De Vez.
+    </string>
+    <string name="channel_toast_alert">
+        É preciso ter o aplicativo do YouTube instalado
+        para acessar o canal Emagrecer De Vez.
+    </string>
+
+
+    <!-- Menu -->
+    <string name="item_menu_last_video">
+        Vídeo
+    </string>
+    <string name="item_menu_social_networks">
+        Redes
+    </string>
+    <string name="item_menu_play_lists">
+        PlayLists
+    </string>
+    <string name="item_menu_exclusive_groups">
+        Tribo
+    </string>
+    <string name="item_menu_about_channel">
+        Sobre
+    </string>
+    <string name="item_menu_books">
+        Livros
+    </string>
+    <string name="item_menu_courses">
+        Cursos
+    </string>
+    <string name="item_menu_business">
+        Comercial
+    </string>
+
+
+    <!-- LastVideoFragment -->
+    <string name="last_video_content_title">
+        Último vídeo liberado
+    </string>
+    <string name="last_video_play_content_desc">
+        Ícone de play do vídeo.
+    </string>
+    <string name="volume_icon_content_desc">
+        Ícone de controle volume.
+    </string>
+    <string name="head_phones_icon_content_desc">
+        Ícone de fones de ouvido.
+    </string>
+    <string name="video_resolution_icon_content_desc">
+        Ícone de controle de resolução (HD).
+    </string>
+    <string name="like_icon_content_desc">
+        Ícone de like, gostei do conteúdo.
+    </string>
+    <string name="touch_to_watch">
+        Toque para assistir
+    </string>
+    <string name="leave_a_comment">
+        Deixe seu comentário
+    </string>
+    <string name="last_video_toast_alert">
+        É preciso ou o aplicativo do YouTube ou um navegador
+        Web para que o vídeo \"%s\" comece.
+    </string>
+
+
+
+    <!-- SocialNetworksFragment -->
+    <string name="social_networks_content_title">
+        Todas as redes do canal com conteúdos exclusivos
+    </string>
+    <string name="social_network_toast_alert">
+        É preciso ao menos um aplicativo de navegador Web
+        para você poder acessar a rede \"%s\" do canal.
+    </string>
+
+
+    <!-- PlayListsFragment -->
+    <string name="playlists_content_title">
+        PlayLists do canal
+    </string>
+    <string name="playlist_toast_alert">
+        É preciso ou o aplicativo do YouTube ou um navegador
+        Web para que a PlayList \"%s\" seja acessada.
+    </string>
+    <string name="no_playlists_yet">
+        Nenhuma PlayList disponível no canal!
+    </string>
+
+
+    <!-- GroupsFragment -->
+    <string name="groups_content_title">
+        Tribo exclusiva
+    </string>
+    <string name="groups_desc">
+        A Tribo Forte é um movimento nacional de saúde e
+        boa forma com o mais confiável portal de conteúdo
+        privilegiado do Brasil para a construção e
+        manutenção de um estilo de vida saudável que visa
+        emagrecimento, saúde e bem-estar, tudo fundamentado
+        inteiramente na absoluta melhor ciência disponível
+        hoje no mundo.
+    </string>
+    <string name="groups_toast_alert">
+        É preciso o aplicativo de navegador Web para acessar
+        no \"%s\" a tribo exclusiva \"%s\".
+    </string>
+
+
+    <!-- AboutChannelFragment -->
+    <string name="about_channel_content_title">
+        Conheça um pouco da minha história
+    </string>
+    <string name="about_channel_full_desc">Eu
+        comi atum em lata e ervilha durante quase 1 ano...
+
+        \n\nNo vídeo que vou disponibilizar para você aqui
+        conto mais sobre minha história pessoal,
+        como tudo começou, um pouco mais sobre quem é Rodrigo
+        Polesso.
+
+        \n\nComento sobre o porquê de eu ter começado a estudar
+        o mundo, a ciência nutricional, minhas tentativas de
+        emagrecimento, minhas infinitas dietas em busca da boa
+        forma, como me alimentava e como isso tudo foi mudando
+        depois...
+
+        \n\nUm dia eu olhei para o espelho e vi uma pessoa acima
+        do peso, inchada e deprimida e aí foi a hora de começar
+        uma mudança que nunca parou.
+
+        \n\nNo vídeo conto por cima minha história desde 2009
+        até 2020. Espero que curta, já que te considero um amigo
+        intimo já, né? hehehe
+
+        \n\n<b>🎥 Vídeo da minha história:</b> https://www.youtube.com/watch?v=4SkFqsXDSjU
+
+        \n\nForte abraço,
+
+        \n\nRodrigo.
+        \n\n
+    </string>
+
+
+    <!-- BooksFragment -->
+    <string name="books_content_title">
+        Conheça meus livros
+    </string>
+    <string name="books_toast_alert">
+        É preciso ao menos um navegador Web para abrir a
+        página do livro \"%s\".
+    </string>
+
+
+    <!-- CoursesFragment -->
+    <string name="courses_content_title">
+        Conheça meus cursos em vídeo
+    </string>
+    <string name="complement_amount_videos">
+        %d vídeo aulas
+    </string>
+    <string name="course_toast_alert">
+        É preciso um navegador Web para abrir a página do
+        curso \"%s\".
+    </string>
+
+
+    <!-- BusinessContactFragment -->
+    <string name="business_contacts_content_title">
+        Precisa de ajuda ou tem alguma proposta?
+    </string>
+    <string name="business_contacts_desc">Nossa
+        equipe de suporte 5 estrelas está de prontidão
+        para te ajudar da melhor forma possível! 🙂
+
+        \n\nSe você tiver dúvidas, sugestões, etc ou precisar
+        de auxílio com os produtos do Emagrecer De Vez,
+        ficaremos muito felizes em te ajudar. Por favor
+        envie um email para contato@emagrecerdevez.com
+        que responderemos muito em breve.
+    </string>
+    <string name="business_contact_toast_alert">
+        É preciso um aplicativo de \"%s\" para poder entrar em
+        contato pelo \"%s\".
+    </string>
+
+
+    <!-- UtilNotification -->
+    <string name="notification_verbose_name">
+        🎬 Vídeo novo no canal
+    </string>
+    <string name="notification_verbose_description">
+        Notificação de novos vídeos sobre vida saudável e
+        estilo de vida que são liberados no canal YouTube
+        Emagrecer De Vez.
+    </string>
+</resources>

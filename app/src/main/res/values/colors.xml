@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#6daa00</color>
+
+    <!-- Topo -->
+        <color name="colorStatusBar">#6daa00</color>
+        <color name="colorTopIcon">#FFFFFF</color>
+        <color name="colorTopWave">#6FA800</color>
+        <color name="colorTopText">#FFFFFF</color>
+
+
+    <!-- Conteúdo central -->
+        <color name="colorScreenBackground">#98c738</color>
+        <color name="colorContentTitle">#FFFFFF</color>
+        <color name="colorContentText">#FFFFFF</color>
+        <color name="colorContentLink">#FFFFFF</color>
+
+        <!-- Video player -->
+            <color name="colorVideoPlayerBackground">#000000</color>
+            <color name="colorVideoPlayerForeground">#99000000</color>
+            <color name="colorVideoPlayerIcon">#FFFFFF</color>
+
+            <!-- Bloco YouTube -->
+                <color name="colorVideoPlayerYBBackground">#77ae00</color>
+                <color name="colorVideoPlayerYBText">#FFFFFF</color>
+
+            <!-- Bloco comentário -->
+                <color name="colorVideoPlayerCBBackground">#77ae00</color>
+                <color name="colorVideoPlayerCBText">#FFFFFF</color>
+
+        <!-- Item de lista -->
+            <color name="colorListItemBackground_RippleStart">#8cc200</color>
+            <color name="colorListItemBackground_RippleEnd">#6dab00</color>
+            <color name="colorListItemStroke">#8cc200</color>
+            <color name="colorListItemText">#FFFFFF</color>
+            <color name="colorListItemLinealIcon">#5a8b00</color>
+            <color name="colorListItemNoDataIcon">#5a8b00</color>
+
+
+    <!-- Bottom Menu -->
+        <color name="colorMenuSeparatorLine">#557eb700</color>
+        <color name="colorMenuBackground">@android:color/transparent</color>
+        <color name="colorMenuItemBackground">@android:color/transparent</color>
+        <color name="colorMenuItemSelected">#FFFFFF</color>
+        <color name="colorMenuItemNotSelected">#608c00</color>
+</resources>
