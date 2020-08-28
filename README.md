@@ -1,7 +1,7 @@
 
 # Aplicativo Android do canal YouTube Emagrecer de Vez
 
-Neste repositório você tem acesso ao primeiro projeto Android que fez uso do framework [Android YouTuber App].
+Neste repositório você tem acesso ao primeiro projeto Android que fez uso do framework [Android YouTuber App](https://github.com/viniciusthiengo/aplicativo-android-para-canais-do-youtube).
 
 O canal YouTube alvo aqui foi o canal "Emagrecer de Vez".
 
